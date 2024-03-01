@@ -19,20 +19,17 @@ Rectangle
     border.width: 2
     radius: 20
 
-    //property font pageFont: FontLoader { source: "MyFont.ttf" }
-
     Text {
         id: lblabel
         anchors.centerIn: parent
         text: "button"
         color: largebutton.fontColor
-        //font: pageFont
     }
 
     MouseArea {
             anchors.fill: parent
-            /*onClicked: {
+            onClicked: {
                 largebutton.text = "Clicked!"
-            }*/
+            }
         }
 }
