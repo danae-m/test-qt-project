@@ -15,10 +15,4 @@ Window
         anchors.fill: parent
         source: "MainMenu.qml"
     }
-
-    Connections
-    {
-        target: pageLoader.item
-        onSettingsClicked: pageLoader.source = "Settings.qml"
-    }
 }
