@@ -3,7 +3,7 @@ import QtQuick.Controls
 
 QtObject
 {
-    /*id: appThemes
+    id: appThemes
 
     property Palette current: classic
 
@@ -24,14 +24,4 @@ QtObject
         window: "#fefce0"
         windowText: "#033076"
     }
-
-    readonly property Palette dark: Palette
-    {
-
-    }
-
-    readonly property Palette colorful: Palette
-    {
-
-    }*/
 }
