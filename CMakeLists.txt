@@ -20,13 +20,8 @@ qt_add_qml_module(appRecipeManagerQQ
     QML_FILES Main.qml
     QML_FILES AppThemes.qml
     QML_FILES LargeButton.qml
-    QML_FILES SmallButton.qml
     QML_FILES AppThemesPrivate.qml
     QML_FILES MainMenu.qml
-    QML_FILES Settings.qml
-    QML_FILES TinyButton.qml
-    QML_FILES PageTitle.qml
-    QML_FILES Header.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
